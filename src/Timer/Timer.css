@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding-top: 200px;
+}
+
+.Clock-days, .Clock-hours, .Clock-minutes, .Clock-seconds{
+    display: inline-block;
+    word-spacing: 10px;
+}
+
+.input-timer{
+    font-size: 30px;
+}
+
+.btn-style{
+    position: relative;
+    height: 47.5px;
+    border-radius: 0;
+}
